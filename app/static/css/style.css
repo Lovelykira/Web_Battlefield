@@ -1,0 +1,21 @@
+p{
+color: red;
+}
+
+h2{
+font-size: 200%;
+}
+
+form{
+padding: 7px;
+}
+
+body{
+text-align: center;
+}
+
+#note {
+font-size: 10pt;
+font-style: italic;
+padding: 5px;
+}

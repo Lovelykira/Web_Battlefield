@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+    <head>
+         <link href="static/css/style.css" rel="stylesheet">
+    </head>
+    <body>
+    <h2>Welcome to War Simulator!</h2>
+    All you need to do is input the number of armies, that would fight `till the only one left. <br>
+    Everything else the <b>God of randomness</b> will do for you.<br>
+    <form action="/battle" method="post">
+        Input the number of armies:
+        <input name="num_armies" type="text">
+        <button type = "submit">submit</button>
+    </form>
+    <div id="note">Please notice that if you input big number the process of calculating can take a long time</div>
+    </body>
+</html>
